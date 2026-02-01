@@ -196,11 +196,6 @@ Here are the remaining advantages of a full installation, as currently done by C
   which are used by some package managers to house third-party completions.
   Regardless of build system, fish uses ``$XDG_DATA_DIRS/{vendor_completion.d,vendor_conf.d,vendor_functions.d}``.
 
-Contributing Changes to the Code
---------------------------------
-
-See the `Guide for Developers <CONTRIBUTING.rst>`__.
-
 Contact Us
 ----------
 
