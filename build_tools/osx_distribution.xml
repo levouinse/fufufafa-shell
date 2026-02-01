@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <title>fufufafa-shell shell</title>
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <background file="terminal_logo.png" scaling="proportional" alignment="bottomleft"/>
+    <pkg-ref id="com.ridiculousfish.fufufafa-shell-pkg"/>
+    <options hostArchitectures="arm64,x86_64" rootVolumeOnly="true"/>
+    <options customize="never" require-scripts="true"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.ridiculousfish.fufufafa-shell-pkg"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.ridiculousfish.fufufafa-shell-pkg" visible="false">
+        <pkg-ref id="com.ridiculousfish.fufufafa-shell-pkg"/>
+    </choice>
+    <pkg-ref id="com.ridiculousfish.fufufafa-shell-pkg" version="0" onConclusion="none">fufufafa-shell.pkg</pkg-ref>
+</installer-gui-script>

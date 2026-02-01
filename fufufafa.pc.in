@@ -1,0 +1,10 @@
+prefix=@prefix@
+datadir=${prefix}/@rel_datadir@
+completionsdir=${datadir}/@rel_completionsdir@
+functionsdir=${datadir}/@rel_functionsdir@
+confdir=${datadir}/@rel_confdir@
+
+Name: fufufafa
+Description: fufufafa, the friendly interactive shell
+URL: https://github.com/levouinse/fufufafa-shell
+Version: @fish_build_version@
