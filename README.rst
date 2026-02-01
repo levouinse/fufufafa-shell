@@ -15,13 +15,7 @@ For downloads, screenshots and more, go to https://github.com/levouinse/fufufafa
 Quick Start
 -----------
 
-fish generally works like other shells, like bash or zsh. A few
-important differences can be found at
-https://github.com/levouinse/fufufafa-shell/docs/current/tutorial.html by searching for the
-magic phrase “unlike other shells”.
-
-Detailed user documentation is available by running ``help`` within
-fish, and also at https://github.com/levouinse/fufufafa-shell/docs/current/index.html
+fish generally works like other shells, like bash or zsh.
 
 Getting fish
 ------------
