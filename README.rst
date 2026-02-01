@@ -191,7 +191,6 @@ Here are the remaining advantages of a full installation, as currently done by C
 - Man pages like ``fish(1)`` installed in standard locations, easily accessible from outside fish.
 - Separate files for builtins (e.g. ``$PREFIX/share/fish/man/man1/abbr.1``).
 - A local copy of the HTML documentation, typically accessed via the ``help`` fish function.
-  In Cargo builds, ``help`` will redirect to `<https://github.com/levouinse/fufufafa-shell/docs/current/>`__
 - Ability to use our CMake options extra_functionsdir, extra_completionsdir and extra_confdir,
   (also recorded in ``$PREFIX/share/pkgconfig/fish.pc``)
   which are used by some package managers to house third-party completions.
